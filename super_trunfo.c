@@ -4,7 +4,7 @@ int main(){
     char Estado[50];
     char Código[5];
     char Capital[50];
-    int População;
+    float População;
     float Área;
     float PIB;
     int Pontos_Turisticos;
@@ -43,8 +43,9 @@ int main(){
     printf("População: %f habitantes\n", População);
     printf("Área: %f km²\n", Área);
     printf("PIB: %f bilhões\n", PIB);
-    printf("Pontos Turisticos: %d\n");
+    printf("Pontos Turisticos: %d\n", Pontos_Turisticos);
     
+    printf("novo commit\n");
 
     return 0;
 }
